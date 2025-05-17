@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mon document</title>
+</head>
+<body>
+    <title>Formulaire personnel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" />
+        <link rel="stylesheet" href="Formulaire2.css">
+    </head>
+    <body>
+        <table border="6">
+            <tr>
+                <th class="un">
+                    <a href="https://eneam.uac.bj"> <img src="uac.jpg" alt="logo UAC"></a>
+                </th> 
+                <th class="deux"> 
+                    <h1>BIENVENUE SUR MON SITE WEB <br/> <a href="Page1.html"> VODOUHE Amy Destiny Karol</a> </h1>
+                </th> 
+                <th class="quatre">
+                    <a href="https://portail.uac.bj/"><img src="ENEAM.png" alt=" logo ENEAM"></a>
+                </th>
+            </tr>
+        </table>
+        <h2>Formulaire d'entree</h2>
+        <form class="form1">
+            <fieldset>
+                <h3>Etat civil</h3>
+                <hr>
+                     <label for="nom">Nom:</label>
+                     <input type="text"name="nom"id="nom"size="50"maxlength="50" required>
+                     <label for="prenom">Prenom:</label>
+                     <input type="text"name="prenom"id="prenom"size="50"maxlength="50" required><br/>
+                     <br/>
+                     <label for="age">Age:</label><br>
+                     <input type="number"name="age"id="age"size="3"maxlength="3" required><br>
+                     <label for="mail">E-mail:</label>
+                     <input type="email"name="mail"id="mail"size="50"maxlength="50" required><br/>
+                     <label for="mat">Matricule:</label><br>
+                     <input type="text"name="mat"id="mat"size="20"maxlength="20" required><br>
+                     <label for="sex"> Sexe </label><br>
+                     <input type="text"name="sex"id="sex"size="20"maxlength="20" required><br/>
+            </fieldset>
+        </form>
+        
+        <form class="form">
+                <fieldset>
+                <h3>Mes diplomes</h3>
+                <hr>
+                     <input type="checkbox"name="cep"id="cep"><label for="cep">CEP</label>
+                     <input type="checkbox"name="bepc"id="bepc"><label for="bepc">BEPC</label>
+                     <input type="checkbox"name="bac"id="bac"><label for="bac">BAC</label>
+                </fieldset>
+        </form>       
+        <form class="form">
+            <fieldset>
+                <h3>Expertise</h3>
+                <hr>
+                <input type="radio"name="it"id="it"><label for="it">Expertise IT</label>
+                <input type="radio"name="comp"id="comp"><label for="comp">Expertise Comptable</label>
+                <h3>Les boutons</h3>
+                <input type="submit" value="Envoyer" class="boutons">
+                <input type="reset" value="Effacer" class="boutons">
+                <input type="out"name="quit"id="quit" class="boutons"><label for="quit">Quitter</label>
+            </fieldset>
+        </form> 
+    </body> 
+</body>
+</html>

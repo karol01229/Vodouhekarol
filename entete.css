@@ -1,0 +1,10 @@
+table{
+	left: 0px;
+	right: 25px;
+	margin-left: 400px;
+	position: absolute,fixed;
+}
+table:hover{
+	background-color: red;
+	transition: 7,5s;
+}

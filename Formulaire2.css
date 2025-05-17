@@ -1,0 +1,71 @@
+body{
+	background-image: url("22394.jpg");
+
+}
+form{
+	background-color: red;
+	margin-left: 35%;
+	width: 400px;
+}
+
+:required{
+	background-color: grey;
+	opacity: 25px;
+	border: none;
+	
+	color: black;
+	font-style: bold,italic;
+}
+
+label{
+	color: black;
+	font-style: bold;
+	font-weight: 200px;
+}
+.un{
+	width: 25%;
+	background-color: white;
+
+}
+.deux{
+	width: 50%;
+}
+.quatre{
+	width: 25%;
+	background-color: white;
+}
+table{
+	left: 0px;
+	right: 25px;
+	margin-left: 400px;
+	position: absolute,fixed;
+}
+table:hover{
+	background-color: red;
+	transition: 7,5s;
+}
+h2{
+	margin-left: 35%;
+	font-style: bold;
+	color: aqua;
+}
+fieldset{
+	border: none;
+}
+input{
+	height: 25px;
+	margin-bottom: 1px
+}
+input:hover{
+	height: 25px;
+	border-radius: 25px;
+}
+h3{
+	margin-left: 120px
+}
+.boutons:hover{
+	border-radius: 50px;
+	background-color: aqua;
+}
+
+
